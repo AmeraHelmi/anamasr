@@ -1,0 +1,582 @@
+#matchbox {
+	margin:0 0 7px 0;
+	min-height:150px;
+	overflow:visible;
+}
+.mb-rw {
+	clear:both;
+	padding:10px 0 0;
+	text-align:center;
+	font-weight:bold;
+	font-size:14px;
+	line-height:18px;
+}
+.mb-top-details {
+	text-align:center;
+	padding:5px 0;
+}
+.mb-top-details p {
+	margin:6px 0 5px 0;
+}
+.mb-top-details .venue-details {
+	font-size:12px;
+}
+.mb-top-details a {
+	color:#fff;
+}
+.mb-beta {
+	width:70%;
+}
+.mb-beta td,
+.mb-beta a,
+.mb-beta li {
+	line-height:1;
+}
+.mb-beta td img {
+	margin:0;
+}
+.mb-beta caption {
+	text-indent:-9999px;
+	height:0;
+	line-height:0;
+}
+.mb-beta td {
+	background:transparent url(http://img.uefa.com/imgml/elem/blackline_60.png) 0 0 repeat;
+	border:none;
+	color:#fff;
+	padding:0 2px;
+	vertical-align:middle;
+}
+.mb-beta td a {
+	color:#fff;
+}
+.mb-beta .mb-logo {
+	padding:10px;
+}
+.mb-beta .mb-result {
+	padding:8px 0 0;
+	font-size:38px;
+	font-weight:bold;
+	vertical-align:top;
+}
+.mb-beta .mb-result .mb-time {
+	font-size:30px;
+}
+.mb-beta .mb-result.goals-0 {
+	vertical-align:middle;
+	padding:0;
+}
+.mb-beta .mb-result.goals-1 {
+	padding:20px 0 0;
+}
+.mb-beta .mb-result.goals-2 {
+	padding:15px 0 0;
+}
+.mb-beta .mb-logo {
+	width:70px;
+	height:70px;
+	vertical-align:top;
+	text-align:center;
+}
+.mb-beta .mb-team {
+	width:190px;
+	vertical-align:top;
+}
+.mb-beta .mb-team.goals-0 {
+	vertical-align:middle;
+}
+.mb-beta .mb-team-h {
+	text-align:right;
+	padding:10px 20px 10px 10px;
+}
+.mb-beta .mb-team-a {
+	text-align:left;
+	padding:10px 10px 10px 20px;
+}
+.mb-beta .mb-team .mb-team-name {
+	padding-bottom:5px;
+}
+.mb-beta .mb-team.goals-1 .mb-team-name {
+	padding-top:15px;
+}
+.mb-beta .mb-team.goals-2 .mb-team-name {
+	padding-top:10px;
+}
+.mb-beta .mb-team-name a {
+	font-size:19px;
+	font-weight:bold;
+}
+.mb-beta .res-scorers li {
+	margin:5px 0 0;
+	padding:0 8px 0 0;
+}
+.mb-beta .mb-res-away.gInline li, .mb-beta .mb-res-home.gInline li {
+	display:inline-block;
+}
+.ie7 .mb-beta .mb-res-away.gInline li,.ie7 .mb-beta .mb-res-home.gInline li {
+	display:inline;
+}
+.ie8 .mb-beta .mb-res-away.gInline li,.ie8 .mb-beta .mb-res-home.gInline li {
+	display:inline-block;
+}
+.mb-beta .mb-result {
+	white-space:nowrap;
+}
+.lt_m {
+	display:none;
+}
+#matchtabphaselist ul li {
+	background:url(http://img.uefa.com/imgml/comp/matches/menu_Arrows.png) no-repeat scroll right 0 transparent;
+}
+#matchtabphaselist ul li.selected {
+	background:url(http://img.uefa.com/imgml/comp/matches/menu_Arrows.png) no-repeat scroll right -31px transparent;
+}
+#roundphaselist {
+	background-color:#84871c;
+}
+#roundphaselist ul li.selected, #roundphaselist ul li.selected a {
+	color:#012410;
+}
+.matches .d3cmsTopContent {
+	background:url(http://img.uefa.com/imgml/matches/BlackBg.png) no-repeat top center transparent;
+}
+.matches.indexMatchPage .d3cmsTopContent {
+	background: none;
+}
+.matches .matchpage {
+	position:relative;
+	overflow:visible;
+}
+.matches .MatchB #linkFirstSecondLeg {
+	top: 4px;
+}
+.matches .MatchB #MBhome {
+	width: 35%;
+}
+.matches .MatchB #MBresults {
+	width: 30%;
+}
+.matches .MC_Light #MBaway {
+	width: 34%;
+	float: right;
+}
+.matches .MatchB #MBresults .MBresultsLinks {
+	color: #fff;
+	text-decoration:underline;
+	line-height: 20px;
+}
+.matches .MatchB .MBresultsWrap {
+	background: url("http://img.uefa.com/imgml/elem/blackline_60.png") repeat scroll 0 0 transparent;
+	padding: 4px 0;
+	height: 50px;
+	margin: 8px 0;
+}
+.matches .MatchB #LogoTeamHome {
+	float: left;
+	margin-right: 20px;
+}
+.matches .MatchB #resultsDetails {
+	float: left;
+	width: 120px;
+	margin-top: 5px;
+}
+.matches .MC_Light #resultsDetails {
+	margin-top: 0;
+}
+.matches .MatchB #LogoTeamAway {
+	float: right;
+	margin-left: 20px;
+}
+.matches .MatchB #MBawayStatic {
+	width: 34%;
+	float: right;
+}
+.matches .MC_Light .statustime {
+	margin-bottom: 0;
+}
+.matches .MC_Light {
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+.matches .MC_Light .statustime.bg {
+	clear: both;
+	text-align: center;
+	width: 150px;
+	margin: 0 auto;
+}
+.matches #omDropDown {
+	position:absolute;
+	right:15px;
+	bottom:-20px;
+}
+.matches #mclDropDown {
+	position:absolute;
+	right:15px;
+	bottom:5px;
+}
+div.castrolMtStatHead {
+	height: 30px;
+	width: 657px;
+	padding: 5px 0;
+}
+div.castrolMtStatHead .hLogo {
+	width: 30px;
+	margin:0 5px 0 10px;
+	text-align: center;
+}
+div.castrolMtStatHead .nameCont {
+	width: 566px;
+	font-size: 140%;
+	font-weight: bolder;
+}
+div.castrolMtStatHead .nameCont .hName {
+	text-align: left;
+	float: left;
+	padding-top: 8px;
+}
+div.castrolMtStatHead .nameCont .aName {
+	text-align: right;
+	float: right;
+	padding-top: 8px;
+}
+div.castrolMtStatHead .aLogo {
+	width: 30px;
+	margin:0 10px 0 5px;
+	text-align: center;
+}
+table.castrolMtStat, table.castrolMtStat table {
+	width: 100%;
+}
+table.castrolMtStat tr td {
+	border: 0;
+	padding: 0;
+}
+table.castrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid white;
+}
+table.mCastrolMtStat .barContL,
+table.castrolMtStat .barContL,
+table.castrolMtStat .barContR,
+table.mCastrolMtStat .barContR {
+	text-align: right;
+	height: 22px;
+	position: relative;
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/StatsBg2.png);
+	background-repeat: no-repeat 
+}
+table.castrolMtStat .barContL,
+table.castrolMtStat .barContR,
+table.castrolMtStat .barContL .bar,
+table.castrolMtStat .barContR .bar {
+	width: 210px;
+}
+table.mCastrolMtStat .barContL,
+table.mCastrolMtStat .barContR,
+table.mCastrolMtStat .barContL .bar,
+table.mCastrolMtStat .barContR .bar {
+	width: 80px;
+}
+table.castrolMtStat .barContL,
+table.mCastrolMtStat .barContL {
+	margin-left: 10px;
+	background-position: left 0, 
+}
+table.castrolMtStat .barContR,
+table.mCastrolMtStat .barContR {
+	margin-right: 10px;
+	background-position: right 0;
+}
+table.castrolMtStat .barContL .bar,
+table.mCastrolMtStat .barContL .bar,
+table.castrolMtStat .barContR .bar,
+table.mCastrolMtStat .barContR .bar {
+	position: absolute;
+	top: 1px;
+	left: 0px;
+}
+table.castrolMtStat .barContL .bar .barTailL,
+table.castrolMtStat .barContL .bar .barHeadL,
+table.mCastrolMtStat .barContL .bar .barTailL,
+table.mCastrolMtStat .barContL .bar .barHeadL,
+table.castrolMtStat .barContR .bar .barTailR,
+table.castrolMtStat .barContR .bar .barHeadR,
+table.mCastrolMtStat .barContR .bar .barTailR,
+table.mCastrolMtStat .barContR .bar .barHeadR {
+	height: 20px;
+	width: 4px;
+}
+table.castrolMtStat .barContL .bar .barTailL,
+table.castrolMtStat .barContL .bar .barHeadL,
+table.mCastrolMtStat .barContL .bar .barTailL,
+table.mCastrolMtStat .barContL .bar .barHeadL,
+table.castrolMtStat .barContL .bar .barBodyL,
+table.mCastrolMtStat .barContL .bar .barBodyL {
+	float: right;
+}
+table.castrolMtStat .barContR .bar .barTailR,
+table.castrolMtStat .barContR .bar .barHeadR,
+table.mCastrolMtStat .barContR .bar .barTailR,
+table.mCastrolMtStat .barContR .bar .barHeadR,
+table.castrolMtStat .barContR .bar .barBodyR,
+table.mCastrolMtStat .barContR .bar .barBodyR {
+	float: left;
+}
+table.castrolMtStat .barContL .bar .barBodyL,
+table.mCastrolMtStat .barContL .bar .barBodyL,
+table.castrolMtStat .barContR .bar .barBodyR,
+table.mCastrolMtStat .barContR .bar .barBodyR {
+	height: 20px;
+}
+table.castrolMtStat .barContL .bar .barL,
+table.mCastrolMtStat .barContL .bar .barL,
+table.castrolMtStat .barContR .bar .barR,
+table.mCastrolMtStat .barContR .bar .barR {
+	float: right;
+	height: 14px;
+	margin-top: 1px;
+	background-color: #000;
+}
+table.castrolMtStat .barContL .bar .barL,
+table.mCastrolMtStat .barContL .bar .barL {
+	float: right;
+}
+table.castrolMtStat .barContR .bar .barR,
+table.mCastrolMtStat .barContR .bar .barR {
+	float: left;
+}
+table.castrolMtStat .statName,
+table.mCastrolMtStat .statName {
+	width: 160px;
+	text-align: center;
+	font-weight: bolder;
+}
+table.castrolMtStat .statName {
+	width: 160px;
+}
+table.mCastrolMtStat .statName {
+	width: 87px;
+	font-size:10px;
+}
+table.castrolMtStat .valueL,
+table.castrolMtStat .valueR,
+table.mCastrolMtStat .valueL,
+table.mCastrolMtStat .valueR {
+	font-size: 11px;
+	font-weight: bolder;
+	color: #fff;
+	width:29px;
+	height:22px;
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/StatsBg2.png);
+}
+table.castrolMtStat .valContL,
+table.mCastrolMtStat .valContL {
+	height: 22px;
+	margin-right: 4px;
+}
+table.castrolMtStat .valContR,
+table.mCastrolMtStat .valContR {
+	height: 22px;
+	margin-left: 4px;
+	background-position: 0 -19px;
+	background-repeat: no-repeat;
+}
+.barTailL, .barBodyL, .barHeadL,
+.barTailR, .barBodyR, .barHeadR,
+table.castrolMtStat .valContL,
+table.castrolMtStat .valContR,
+table.mCastrolMtStat .valContL,
+table.mCastrolMtStat .valContR {
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/Statsbar.png);
+}
+table.castrolMtStat .valueL,
+table.mCastrolMtStat .valueL {
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+table.castrolMtStat .valContL,
+table.mCastrolMtStat .valContL {
+	background-position: right 1px;
+}
+table.castrolMtStat .valueR,
+table.mCastrolMtStat .valueR {
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+table.mCastrolMtStat .barNumber {
+	padding-top:3px;
+}
+table.castrolMtStat .zero .valContL,
+table.castrolMtStat .zero .valContR,
+table.mCastrolMtStat .zero .valContL,
+table.mCastrolMtStat .zero .valContR {
+	background: none;
+}
+table.mCastrolMtStat tr {
+	line-height: 10px;
+}
+table.mCastrolMtStat .valContL, table.mCastrolMtStat .valContR {
+	height: 22px;
+}
+.barTailL,
+.barTailR {
+	display: none 
+}
+.barBodyL,
+.barBodyR {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+.barHeadL {
+	background-position: 0 -20px;
+	background-repeat: no-repeat;
+}
+.barHeadR {
+	background-position: right 0;
+	background-repeat: no-repeat;
+}
+.tmbg49 {
+	background-color: #0071b8 !important;
+}
+div.mCastrolMtStatHead {
+	height: 20px;
+	width: 326px;
+	padding: 5px 0;
+}
+div.mCastrolMtStatHead .hLogo {
+	width: 18px;
+	text-align: center;
+}
+div.mCastrolMtStatHead .nameCont {
+	width: 264px;
+	font-size: 100%;
+	font-weight: bold;
+	font-size:12px;
+}
+div.mCastrolMtStatHead .nameCont .hName {
+	text-align: left;
+	float: left;
+	padding-top: 4px;
+}
+div.mCastrolMtStatHead .nameCont .aName {
+	text-align: right;
+	float: right;
+	padding-top: 4px;
+}
+div.mCastrolMtStatHead .aLogo {
+	width: 18px;
+	text-align: center;
+}
+table.mCastrolMtStat, table.mCastrolMtStat table {
+	width: 100%;
+}
+table.mCastrolMtStat tr td {
+	border: 0;
+	padding: 0;
+}
+table.mCastrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid white;
+}
+.ovRightCol table.mCastrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid black;
+}
+.matches .mCastrolMtStatHead > * {
+	float: left;
+	margin: 0 0 0 10px;
+}
+.matches .mCastrolMtStatHead > .nameCont {
+	width: 224px;
+}
+.matches .mCastrolMtStatHead > .nameCont > * {
+	width: 112px;
+}
+.matches .mCastrolMtStatHead img {
+	vertical-align: middle;
+}
+.matches .mCastrolMtStatHead .hLogo,
+.matches .mCastrolMtStatHead .aLogo {
+	width: 30px;
+}
+.box.matchpresskits_filesize .bF {
+	height: 28px;
+	background-position: 0 -71px;
+}
+.box.matchpresskits_filesize .matchpresskits-items {
+	padding-top: 5px;
+}
+.box.matchpresskits_filesize .matchpresskits-item {
+	background: transparent url(http://img.uefa.com/imgml/icons/pdf.gif) no-repeat 230px 2px;
+	border-bottom: 1px solid #EBEBEB;
+	line-height: 17px;
+	margin: 0 5px 5px;
+	padding: 0 5px 5px;
+	position: relative;
+}
+.box.matchpresskits_filesize .matchpresskits-item.off {
+	background-image: url(http://img.uefa.com/imgml/icons/pdf_off.gif);
+	color: #999;
+}
+.box.matchpresskits_filesize .matchpresskits-item a {
+	display: block;
+}
+.box.matchpresskits_filesize .filesize {
+	font-style: normal;
+	position: absolute;
+	right: 5px;
+	text-align: right;
+	top: 0;
+	width: 60px;
+}
+.box.matchpresskits_filesize .lastup {
+	margin: 0 5px;
+}
+.box.matchpresskits_filesize .more {
+	margin: 0 10px;
+}
+.titleSection {
+	color: #404040;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 5px;
+	font-size: 12px;
+	font-style: normal;
+}
+.container_title_section {
+	height: 20px;
+	width: 317px;
+	word-wrap: break-word;
+	background-color: #e4e4e4;
+}
+.img_injured {
+	padding-right: 5px;
+	padding-top: 5px;
+	float:left;
+}
+.img_suspend {
+	padding-right: 5px;
+	padding-top: 5px;
+	float:left;
+}
+.player_status_injured {
+	line-height:24px;
+}
+.suspension {
+	border:1px solid black;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:2px;
+	padding-left:2px;
+	text-align: center;
+}
+.teamMatch {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 2px 5px 5px;
+}
+.dateMatch {
+	padding: 0px 0px 0px 5px;
+}
+.listPlayer {
+	padding-left:9px;
+}

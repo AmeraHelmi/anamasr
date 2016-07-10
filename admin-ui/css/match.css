@@ -1,0 +1,943 @@
+div.castrolMtStatHead {
+	height: 30px;
+	width: 657px;
+	padding: 5px 0;
+}
+div.castrolMtStatHead .hLogo {
+	width: 50px;
+	margin-right: 5px;
+	text-align: center;
+}
+div.castrolMtStatHead .nameCont {
+	width: 546px;
+	font-size: 140%;
+	font-weight: bolder;
+}
+div.castrolMtStatHead .nameCont .hName {
+	width: 273px;
+	text-align: left;
+	display: block;
+	float: left;
+	padding-top: 8px;
+}
+div.castrolMtStatHead .nameCont .aName {
+	width: 273px;
+	text-align: right;
+	display: block;
+	float: left;
+	padding-top: 8px;
+}
+div.castrolMtStatHead .aLogo {
+	width: 50px;
+	margin-left: 5px;
+	text-align: center;
+}
+table.castrolMtStat, table.castrolMtStat table {
+	width: 100%;
+}
+table.castrolMtStat tr td {
+	border: 0;
+	padding: 0;
+}
+table.castrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid white;
+}
+table.mCastrolMtStat .barContL,
+table.castrolMtStat .barContL,
+table.castrolMtStat .barContR,
+table.mCastrolMtStat .barContR {
+	text-align: right;
+	height: 22px;
+	position: relative;
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/StatsBg2.png);
+	background-repeat: no-repeat 
+}
+table.castrolMtStat .barContL,
+table.castrolMtStat .barContR,
+table.castrolMtStat .barContL .bar,
+table.castrolMtStat .barContR .bar {
+	width: 210px;
+}
+table.mCastrolMtStat .barContL,
+table.mCastrolMtStat .barContR,
+table.mCastrolMtStat .barContL .bar,
+table.mCastrolMtStat .barContR .bar {
+	width: 80px;
+}
+table.castrolMtStat .barContL,
+table.mCastrolMtStat .barContL {
+	margin-left: 10px;
+	background-position: left 0, 
+}
+table.castrolMtStat .barContR,
+table.mCastrolMtStat .barContR {
+	margin-right: 10px;
+	background-position: right 0;
+}
+table.castrolMtStat .barContL .bar,
+table.mCastrolMtStat .barContL .bar,
+table.castrolMtStat .barContR .bar,
+table.mCastrolMtStat .barContR .bar {
+	position: absolute;
+	top: 1px;
+	left: 0px;
+}
+table.castrolMtStat .barContL .bar .barTailL,
+table.castrolMtStat .barContL .bar .barHeadL,
+table.mCastrolMtStat .barContL .bar .barTailL,
+table.mCastrolMtStat .barContL .bar .barHeadL,
+table.castrolMtStat .barContR .bar .barTailR,
+table.castrolMtStat .barContR .bar .barHeadR,
+table.mCastrolMtStat .barContR .bar .barTailR,
+table.mCastrolMtStat .barContR .bar .barHeadR {
+	height: 20px;
+	width: 4px;
+}
+table.castrolMtStat .barContL .bar .barTailL,
+table.castrolMtStat .barContL .bar .barHeadL,
+table.mCastrolMtStat .barContL .bar .barTailL,
+table.mCastrolMtStat .barContL .bar .barHeadL,
+table.castrolMtStat .barContL .bar .barBodyL,
+table.mCastrolMtStat .barContL .bar .barBodyL {
+	float: right;
+}
+table.castrolMtStat .barContR .bar .barTailR,
+table.castrolMtStat .barContR .bar .barHeadR,
+table.mCastrolMtStat .barContR .bar .barTailR,
+table.mCastrolMtStat .barContR .bar .barHeadR,
+table.castrolMtStat .barContR .bar .barBodyR,
+table.mCastrolMtStat .barContR .bar .barBodyR {
+	float: left;
+}
+table.castrolMtStat .barContL .bar .barBodyL,
+table.mCastrolMtStat .barContL .bar .barBodyL,
+table.castrolMtStat .barContR .bar .barBodyR,
+table.mCastrolMtStat .barContR .bar .barBodyR {
+	height: 20px;
+}
+table.castrolMtStat .barContL .bar .barL,
+table.mCastrolMtStat .barContL .bar .barL,
+table.castrolMtStat .barContR .bar .barR,
+table.mCastrolMtStat .barContR .bar .barR {
+	float: right;
+	height: 14px;
+	margin-top: 1px;
+	background-color: #000;
+}
+table.castrolMtStat .barContL .bar .barL,
+table.mCastrolMtStat .barContL .bar .barL {
+	float: right;
+}
+table.castrolMtStat .barContR .bar .barR,
+table.mCastrolMtStat .barContR .bar .barR {
+	float: left;
+}
+table.castrolMtStat .statName,
+table.mCastrolMtStat .statName {
+	width: 160px;
+	text-align: center;
+	font-weight: bolder;
+}
+table.castrolMtStat .statName {
+	width: 160px;
+}
+table.mCastrolMtStat .statName {
+	width: 87px;
+	font-size:10px;
+}
+table.castrolMtStat .valueL,
+table.castrolMtStat .valueR,
+table.mCastrolMtStat .valueL,
+table.mCastrolMtStat .valueR {
+	font-size: 11px;
+	font-weight: bolder;
+	color: #fff;
+	width:29px;
+	height:22px;
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/StatsBg2.png);
+}
+table.castrolMtStat .valContL,
+table.mCastrolMtStat .valContL {
+	height: 22px;
+	margin-right: 4px;
+}
+table.castrolMtStat .valContR,
+table.mCastrolMtStat .valContR {
+	height: 22px;
+	margin-left: 4px;
+	background-position: 0 -19px;
+	background-repeat: no-repeat;
+}
+.barTailL, .barBodyL, .barHeadL,
+.barTailR, .barBodyR, .barHeadR,
+table.castrolMtStat .valContL,
+table.castrolMtStat .valContR,
+table.mCastrolMtStat .valContL,
+table.mCastrolMtStat .valContR {
+	background-image: url(http://img.uefa.com/imgml/matches/PostMatchStats/Statsbar.png);
+}
+table.castrolMtStat .valueL,
+table.mCastrolMtStat .valueL {
+	background-position: right center;
+	background-repeat: no-repeat;
+}
+table.castrolMtStat .valContL,
+table.mCastrolMtStat .valContL {
+	background-position: right 1px;
+}
+table.castrolMtStat .valueR,
+table.mCastrolMtStat .valueR {
+	background-position: left center;
+	background-repeat: no-repeat;
+}
+table.castrolMtStat .zero .valContL,
+table.castrolMtStat .zero .valContR,
+table.mCastrolMtStat .zero .valContL,
+table.mCastrolMtStat .zero .valContR {
+	background: none;
+}
+table.mCastrolMtStat tr {
+	line-height: 10px;
+}
+table.mCastrolMtStat .valContL, table.mCastrolMtStat .valContR {
+	height: 22px;
+}
+.barTailL,
+.barTailR {
+	display: none 
+}
+.barBodyL,
+.barBodyR {
+	background-position: 0 0;
+	background-repeat: repeat-x;
+}
+.barHeadL {
+	background-position: 0 -20px;
+	background-repeat: no-repeat;
+}
+.barHeadR {
+	background-position: right 0;
+	background-repeat: no-repeat;
+}
+div.mCastrolMtStatHead {
+	height: 20px;
+	width: 328px;
+	padding: 5px 0;
+}
+div.mCastrolMtStatHead .hLogo {
+	width: 30px;
+	margin-right: 3px;
+	text-align: center;
+}
+div.mCastrolMtStatHead .nameCont {
+	width: 258px;
+	font-size: 100%;
+	font-weight: bold;
+}
+div.mCastrolMtStatHead .nameCont .hName {
+	width: 112px;
+	text-align: left;
+	display: block;
+	float: left;
+	padding-top: 4px;
+}
+div.mCastrolMtStatHead .nameCont .aName {
+	width: 112px;
+	text-align: right;
+	display: block;
+	float: left;
+	padding-top: 4px;
+}
+div.mCastrolMtStatHead .aLogo {
+	width: 30px;
+	margin-right: 3px;
+	text-align: center;
+}
+table.mCastrolMtStat, table.mCastrolMtStat table {
+	width: 100%;
+}
+table.mCastrolMtStat tr td {
+	border: 0;
+	padding: 0;
+}
+table.mCastrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid white;
+}
+.ovRightCol table.mCastrolMtStat > tbody > tr > td {
+	border-bottom: 1px solid black;
+}
+.mpOvNewsArt {
+	margin-bottom: 5px;
+}
+.mpOvNewsArt.is-two-columns .matchreport {
+	border-bottom: 1px solid #d8d8d8;
+	padding-bottom: 5px;
+}
+.mpOvNewsArt .matchreport .newsText li {
+	list-style-type: disc;
+}
+.mpOvNewsArt .matchreport .newsText p {
+	font-size: 14px;
+	line-height: 18px;
+}
+.mpOvNewsArt .more > * {
+	display: block;
+}
+.mpOvNewsArt .more-social {
+	float: right;
+}
+.mpOvNewsArt .more-social > * {
+	display: inline;
+	float: left;
+	margin-left: 5px;
+}
+.mpOvNewsArt .keyfactsquotes {
+	width: 320px;
+}
+.mpOvNewsArt .keyfactsquotes > * {
+	margin-bottom: 1.5em;
+	line-height: 15px;
+}
+.mpOvNewsArt .keyfactsquotes .title {
+	text-transform: uppercase;
+}
+.mpOvNewsArt .keyfactsquotes .title,
+.mpOvNewsArt .keyfactsquotes .keyfacts,
+.mpOvNewsArt .keyfactsquotes .keyfacts > *,
+.mpOvNewsArt .keyfactsquotes .quotes .quote-capt {
+	color: #2A4982;
+}
+.mpOvNewsArt .keyfactsquotes .keyfacts {
+	background-color: #EBEBEB;
+	border: 1px solid #D9D9D9;
+	padding: 0.5em 1em 1.5em;
+}
+.mpOvNewsArt .keyfactsquotes .keyfacts .title {
+	margin-bottom: 2em;
+}
+.mpOvNewsArt .keyfactsquotes .keyfacts li {
+	background: transparent url(http://img.uefa.com/imgml/comp/ucl/matchin5_bullet.png) no-repeat 1px 9px;
+	border-top: 1px dotted #969696;
+	display: block;
+	margin-top: 6px;
+	padding-top: 6px;
+	text-indent: 1.5em;
+}
+.mpOvNewsArt .keyfactsquotes .keyfacts li:first-child {
+	background-position: 1px 2px;
+	border-top: 0;
+	margin-top: 0;
+	padding-top: 0;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .title {
+	border-bottom: 1px solid #bfbfbf;
+	margin-bottom: 0.5em;
+	padding-bottom: 0.5em;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote {
+	overflow: hidden;
+	margin-bottom: 1em;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote > * {
+	display: inline;
+	float: left;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote * {
+	background-repeat: no-repeat;
+	font-weight: bold;
+	vertical-align: middle;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-body,
+.mpOvNewsArt .keyfactsquotes .quotes .quote-body p {
+	background-image: url(http://img.uefa.com/imgml/comp/ucl/matchin5_quote.png);
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-body {
+	width: 233px;
+	padding-top: 18px;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-body p {
+	background-position: right bottom;
+	font-size: 1.1em;
+	font-weight: bold;
+	padding: 0 30px 18px;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-auth {
+	width: 77px;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-pict {
+	border: 1px solid #666;
+	display: block;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-right .quote-body {
+	margin-left: 87px;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-right .quote-auth {
+	margin-left: -320px;
+}
+.mpOvNewsArt .keyfactsquotes .quotes .quote-left .quote-auth {
+	margin-left: 10px;
+}
+.mlineup-mini {
+	margin-bottom: 10px;
+}
+.mlineup-mini td {
+	border-bottom: 0;
+	vertical-align: top;
+}
+.mlineup-mini .lu-header td {
+	text-align: left;
+}
+.mlineup-mini td.t-logos + td {
+	width: 40%;
+}
+.mlineup-mini .pl-name {
+	display: inline;
+	float: left;
+}
+.mlineup-mini .lu-roles {
+	padding: 10px 3px;
+}
+.mlineup-mini .lu-roles p {
+	background-color: #e6e6e6;
+	padding: 2px 6px;
+}
+.postmatch .castrolMtStatHead .nameCont {
+	width: 527px;
+}
+.postmatch .castrolMtStatHead .nameCont .hName,
+.postmatch .castrolMtStatHead .nameCont .aName {
+	width: 50%;
+}
+.titleSection {
+	color: #404040;
+	font-weight: bold;
+	text-decoration: none;
+	vertical-align: middle;
+	line-height: 20px;
+	padding-left: 5px;
+	font-size: 12px;
+	font-style: normal;
+}
+.container_title_section {
+	height: 20px;
+	width: 317px;
+	word-wrap: break-word;
+	background-color: #e4e4e4;
+}
+.img_injured {
+	padding-right: 5px;
+	padding-top: 5px;
+	float:left;
+}
+.img_suspend {
+	padding-right: 5px;
+	padding-top: 5px;
+	float:left;
+}
+.player_status_injured {
+	line-height:24px;
+}
+.suspension {
+	border:1px solid black;
+	padding-top:2px;
+	padding-bottom:2px;
+	padding-right:2px;
+	padding-left:2px;
+	text-align: center;
+}
+.teamMatch {
+	font-weight: bold;
+	font-size: 14px;
+	padding: 5px 2px 5px 5px;
+}
+.dateMatch {
+	padding: 0px 0px 0px 5px;
+}
+.listPlayer {
+	padding-left:9px;
+}
+#uefaeuro .tb_stand td {
+	background: #fff none repeat scroll 0 0;
+}
+.tmBody50164, .tmHeadLeft50164, .tmHeadRight50164, .tmTailLeft50164, .tmTailRight50164 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50164.png) !important;
+}
+.zero .tmBody50164, .zero .tmHeadLeft50164, .zero .tmHeadRight50164, .zero .tmTailLeft50164, .zero .tmTailRight50164 {
+	background-image:none !important;
+}
+.tmBody52747, .tmHeadLeft52747, .tmHeadRight52747, .tmTailLeft52747, .tmTailRight52747 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52747.png) !important;
+}
+.zero .tmBody52747, .zero .tmHeadLeft52747, .zero .tmHeadRight52747, .zero .tmTailLeft52747, .zero .tmTailRight52747 {
+	background-image:none !important;
+}
+.tmBody50128, .tmHeadLeft50128, .tmHeadRight50128, .tmTailLeft50128, .tmTailRight50128 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50128.png) !important;
+}
+.zero .tmBody50128, .zero .tmHeadLeft50128, .zero .tmHeadRight50128, .zero .tmTailLeft50128, .zero .tmTailRight50128 {
+	background-image:none !important;
+}
+.tmBody74069, .tmHeadLeft74069, .tmHeadRight74069, .tmTailLeft74069, .tmTailRight74069 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/74069.png) !important;
+}
+.zero .tmBody74069, .zero .tmHeadLeft74069, .zero .tmHeadRight74069, .zero .tmTailLeft74069, .zero .tmTailRight74069 {
+	background-image:none !important;
+}
+.tmBody50058, .tmHeadLeft50058, .tmHeadRight50058, .tmTailLeft50058, .tmTailRight50058 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50058.png) !important;
+}
+.zero .tmBody50058, .zero .tmHeadLeft50058, .zero .tmHeadRight50058, .zero .tmTailLeft50058, .zero .tmTailRight50058 {
+	background-image:none !important;
+}
+.tmBody52758, .tmHeadLeft52758, .tmHeadRight52758, .tmTailLeft52758, .tmTailRight52758 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52758.png) !important;
+}
+.zero .tmBody52758, .zero .tmHeadLeft52758, .zero .tmHeadRight52758, .zero .tmTailLeft52758, .zero .tmTailRight52758 {
+	background-image:none !important;
+}
+.tmBody50051, .tmHeadLeft50051, .tmHeadRight50051, .tmTailLeft50051, .tmTailRight50051 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50051.png) !important;
+	color:#404040;
+}
+.zero .tmBody50051, .zero .tmHeadLeft50051, .zero .tmHeadRight50051, .zero .tmTailLeft50051, .zero .tmTailRight50051 {
+	background-image:none !important;
+}
+.tmBody2610, .tmHeadLeft2610, .tmHeadRight2610, .tmTailLeft2610, .tmTailRight2610 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/2610.png) !important;
+}
+.zero .tmBody2610, .zero .tmHeadLeft2610, .zero .tmHeadRight2610, .zero .tmTailLeft2610, .zero .tmTailRight2610 {
+	background-image:none !important;
+}
+.tmBody52914, .tmHeadLeft52914, .tmHeadRight52914, .tmTailLeft52914, .tmTailRight52914 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52914.png) !important;
+}
+.zero .tmBody52914, .zero .tmHeadLeft52914, .zero .tmHeadRight52914, .zero .tmTailLeft52914, .zero .tmTailRight52914 {
+	background-image:none !important;
+}
+.tmBody50050, .tmHeadLeft50050, .tmHeadRight50050, .tmTailLeft50050, .tmTailRight50050 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50050.png) !important;
+}
+.zero .tmBody50050, .zero .tmHeadLeft50050, .zero .tmHeadRight50050, .zero .tmTailLeft50050, .zero .tmTailRight50050 {
+	background-image:none !important;
+}
+.tmBody52682, .tmHeadLeft52682, .tmHeadRight52682, .tmTailLeft52682, .tmTailRight52682 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52682.png) !important;
+}
+.zero .tmBody52682, .zero .tmHeadLeft52682, .zero .tmHeadRight52682, .zero .tmTailLeft52682, .zero .tmTailRight52682 {
+	background-image:none !important;
+}
+.tmBody52336, .tmHeadLeft52336, .tmHeadRight52336, .tmTailLeft52336, .tmTailRight52336 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52336.png) !important;
+}
+.zero .tmBody52336, .zero .tmHeadLeft52336, .zero .tmHeadRight52336, .zero .tmTailLeft52336, .zero .tmTailRight52336 {
+	background-image:none !important;
+}
+.tmBody75797, .tmHeadLeft75797, .tmHeadRight75797, .tmTailLeft75797, .tmTailRight75797 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/75797.png) !important;
+}
+.zero .tmBody75797, .zero .tmHeadLeft75797, .zero .tmHeadRight75797, .zero .tmTailLeft75797, .zero .tmTailRight75797 {
+	background-image:none !important;
+}
+.tmBody50037, .tmHeadLeft50037, .tmHeadRight50037, .tmTailLeft50037, .tmTailRight50037 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50037.png) !important;
+}
+.zero .tmBody50037, .zero .tmHeadLeft50037, .zero .tmHeadRight50037, .zero .tmTailLeft50037, .zero .tmTailRight50037 {
+	background-image:none !important;
+}
+.tmBody50080, .tmHeadLeft50080, .tmHeadRight50080, .tmTailLeft50080, .tmTailRight50080 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50080.png) !important;
+}
+.zero .tmBody50080, .zero .tmHeadLeft50080, .zero .tmHeadRight50080, .zero .tmTailLeft50080, .zero .tmTailRight50080 {
+	background-image:none !important;
+}
+.tmBody52707, .tmHeadLeft52707, .tmHeadRight52707, .tmTailLeft52707, .tmTailRight52707 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52707.png) !important;
+}
+.zero .tmBody52707, .zero .tmHeadLeft52707, .zero .tmHeadRight52707, .zero .tmTailLeft52707, .zero .tmTailRight52707 {
+	background-image:none !important;
+}
+.tmBody50064, .tmHeadLeft50064, .tmHeadRight50064, .tmTailLeft50064, .tmTailRight50064 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50064.png) !important;
+}
+.zero .tmBody50064, .zero .tmHeadLeft50064, .zero .tmHeadRight50064, .zero .tmTailLeft50064, .zero .tmTailRight50064 {
+	background-image:none !important;
+}
+.tmBody52723, .tmHeadLeft52723, .tmHeadRight52723, .tmTailLeft52723, .tmTailRight52723 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52723.png) !important;
+}
+.zero .tmBody52723, .zero .tmHeadLeft52723, .zero .tmHeadRight52723, .zero .tmTailLeft52723, .zero .tmTailRight52723 {
+	background-image:none !important;
+}
+.tmBody52280, .tmHeadLeft52280, .tmHeadRight52280, .tmTailLeft52280, .tmTailRight52280 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52280.png) !important;
+	color:#404040;
+}
+.zero .tmBody52280, .zero .tmHeadLeft52280, .zero .tmHeadRight52280, .zero .tmTailLeft52280, .zero .tmTailRight52280 {
+	background-image:none !important;
+}
+.tmBody52826, .tmHeadLeft52826, .tmHeadRight52826, .tmTailLeft52826, .tmTailRight52826 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52826.png) !important;
+}
+.zero .tmBody52826, .zero .tmHeadLeft52826, .zero .tmHeadRight52826, .zero .tmTailLeft52826, .zero .tmTailRight52826 {
+	background-image:none !important;
+}
+.tmBody50074, .tmHeadLeft50074, .tmHeadRight50074, .tmTailLeft50074, .tmTailRight50074 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50074.png) !important;
+}
+.zero .tmBody50074, .zero .tmHeadLeft50074, .zero .tmHeadRight50074, .zero .tmTailLeft50074, .zero .tmTailRight50074 {
+	background-image:none !important;
+}
+.tmBody50143, .tmHeadLeft50143, .tmHeadRight50143, .tmTailLeft50143, .tmTailRight50143 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50143.png) !important;
+}
+.zero .tmBody50143, .zero .tmHeadLeft50143, .zero .tmHeadRight50143, .zero .tmTailLeft50143, .zero .tmTailRight50143 {
+	background-image:none !important;
+}
+.tmBody52919, .tmHeadLeft52919, .tmHeadRight52919, .tmTailLeft52919, .tmTailRight52919 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52919.png) !important;
+}
+.zero .tmBody52919, .zero .tmHeadLeft52919, .zero .tmHeadRight52919, .zero .tmTailLeft52919, .zero .tmTailRight52919 {
+	background-image:none !important;
+}
+.tmBody57388, .tmHeadLeft57388, .tmHeadRight57388, .tmTailLeft57388, .tmTailRight57388 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/57388.png) !important;
+}
+.zero .tmBody57388, .zero .tmHeadLeft57388, .zero .tmHeadRight57388, .zero .tmTailLeft57388, .zero .tmTailRight57388 {
+	background-image:none !important;
+}
+.tmBody50139, .tmHeadLeft50139, .tmHeadRight50139, .tmTailLeft50139, .tmTailRight50139 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50139.png) !important;
+}
+.zero .tmBody50139, .zero .tmHeadLeft50139, .zero .tmHeadRight50139, .zero .tmTailLeft50139, .zero .tmTailRight50139 {
+	background-image:none !important;
+}
+.tmBody50147, .tmHeadLeft50147, .tmHeadRight50147, .tmTailLeft50147, .tmTailRight50147 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50147.png) !important;
+}
+.zero .tmBody50147, .zero .tmHeadLeft50147, .zero .tmHeadRight50147, .zero .tmTailLeft50147, .zero .tmTailRight50147 {
+	background-image:none !important;
+}
+.tmBody50067, .tmHeadLeft50067, .tmHeadRight50067, .tmTailLeft50067, .tmTailRight50067 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50067.png) !important;
+}
+.zero .tmBody50067, .zero .tmHeadLeft50067, .zero .tmHeadRight50067, .zero .tmTailLeft50067, .zero .tmTailRight50067 {
+	background-image:none !important;
+}
+.tmBody88131, .tmHeadLeft88131, .tmHeadRight88131, .tmTailLeft88131, .tmTailRight88131 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/88131.png) !important;
+}
+.zero .tmBody88131, .zero .tmHeadLeft88131, .zero .tmHeadRight88131, .zero .tmTailLeft88131, .zero .tmTailRight88131 {
+	background-image:none !important;
+}
+.tmBody66168, .tmHeadLeft66168, .tmHeadRight66168, .tmTailLeft66168, .tmTailRight66168 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/66168.png) !important;
+}
+.zero .tmBody66168, .zero .tmHeadLeft66168, .zero .tmHeadRight66168, .zero .tmTailLeft66168, .zero .tmTailRight66168 {
+	background-image:none !important;
+}
+.tmBody52268, .tmHeadLeft52268, .tmHeadRight52268, .tmTailLeft52268, .tmTailRight52268 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/52268.png) !important;
+}
+.zero .tmBody52268, .zero .tmHeadLeft52268, .zero .tmHeadRight52268, .zero .tmTailLeft52268, .zero .tmTailRight52268 {
+	background-image:none !important;
+}
+.tmBody50068, .tmHeadLeft50068, .tmHeadRight50068, .tmTailLeft50068, .tmTailRight50068 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/50068.png) !important;
+}
+.zero .tmBody50068, .zero .tmHeadLeft50068, .zero .tmHeadRight50068, .zero .tmTailLeft50068, .zero .tmTailRight50068 {
+	background-image:none !important;
+}
+.tmBody79940, .tmHeadLeft79940, .tmHeadRight79940, .tmTailLeft79940, .tmTailRight79940 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/1/2013/79940.png) !important;
+}
+.zero .tmBody79940, .zero .tmHeadLeft79940, .zero .tmHeadRight79940, .zero .tmTailLeft79940, .zero .tmTailRight79940 {
+	background-image:none !important;
+}
+.tmBody53013, .tmHeadLeft53013, .tmHeadRight53013, .tmTailLeft53013, .tmTailRight53013 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/53013.png) !important;
+}
+.zero .tmBody53013, .zero .tmHeadLeft53013, .zero .tmHeadRight53013, .zero .tmTailLeft53013, .zero .tmTailRight53013 {
+	background-image:none !important;
+}
+.tmBody50031, .tmHeadLeft50031, .tmHeadRight50031, .tmTailLeft50031, .tmTailRight50031 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50031.png) !important;
+}
+.zero .tmBody50031, .zero .tmHeadLeft50031, .zero .tmHeadRight50031, .zero .tmTailLeft50031, .zero .tmTailRight50031 {
+	background-image:none !important;
+}
+.tmBody51310, .tmHeadLeft51310, .tmHeadRight51310, .tmTailLeft51310, .tmTailRight51310 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/51310.png) !important;
+}
+.zero .tmBody51310, .zero .tmHeadLeft51310, .zero .tmHeadRight51310, .zero .tmTailLeft51310, .zero .tmTailRight51310 {
+	background-image:none !important;
+}
+.tmBody64388, .tmHeadLeft64388, .tmHeadRight64388, .tmTailLeft64388, .tmTailRight64388 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/64388.png) !important;
+}
+.zero .tmBody64388, .zero .tmHeadLeft64388, .zero .tmHeadRight64388, .zero .tmTailLeft64388, .zero .tmTailRight64388 {
+	background-image:none !important;
+}
+.tmBody50127, .tmHeadLeft50127, .tmHeadRight50127, .tmTailLeft50127, .tmTailRight50127 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50127.png) !important;
+}
+.zero .tmBody50127, .zero .tmHeadLeft50127, .zero .tmHeadRight50127, .zero .tmTailLeft50127, .zero .tmTailRight50127 {
+	background-image:none !important;
+}
+.tmBody50107, .tmHeadLeft50107, .tmHeadRight50107, .tmTailLeft50107, .tmTailRight50107 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50107.png) !important;
+}
+.zero .tmBody50107, .zero .tmHeadLeft50107, .zero .tmHeadRight50107, .zero .tmTailLeft50107, .zero .tmTailRight50107 {
+	background-image:none !important;
+}
+.tmBody52709, .tmHeadLeft52709, .tmHeadRight52709, .tmTailLeft52709, .tmTailRight52709 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52709.png) !important;
+}
+.zero .tmBody52709, .zero .tmHeadLeft52709, .zero .tmHeadRight52709, .zero .tmTailLeft52709, .zero .tmTailRight52709 {
+	background-image:none !important;
+}
+.tmBody50136, .tmHeadLeft50136, .tmHeadRight50136, .tmTailLeft50136, .tmTailRight50136 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50136.png) !important;
+}
+.zero .tmBody50136, .zero .tmHeadLeft50136, .zero .tmHeadRight50136, .zero .tmTailLeft50136, .zero .tmTailRight50136 {
+	background-image:none !important;
+}
+.tmBody59869, .tmHeadLeft59869, .tmHeadRight59869, .tmTailLeft59869, .tmTailRight59869 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/59869.png) !important;
+}
+.zero .tmBody59869, .zero .tmHeadLeft59869, .zero .tmHeadRight59869, .zero .tmTailLeft59869, .zero .tmTailRight59869 {
+	background-image:none !important;
+}
+.tmBody52800, .tmHeadLeft52800, .tmHeadRight52800, .tmTailLeft52800, .tmTailRight52800 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52800.png) !important;
+}
+.zero .tmBody52800, .zero .tmHeadLeft52800, .zero .tmHeadRight52800, .zero .tmTailLeft52800, .zero .tmTailRight52800 {
+	background-image:none !important;
+}
+.tmBody52692, .tmHeadLeft52692, .tmHeadRight52692, .tmTailLeft52692, .tmTailRight52692 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52692.png) !important;
+}
+.zero .tmBody52692, .zero .tmHeadLeft52692, .zero .tmHeadRight52692, .zero .tmTailLeft52692, .zero .tmTailRight52692 {
+	background-image:none !important;
+}
+.tmBody50158, .tmHeadLeft50158, .tmHeadRight50158, .tmTailLeft50158, .tmTailRight50158 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50158.png) !important;
+}
+.zero .tmBody50158, .zero .tmHeadLeft50158, .zero .tmHeadRight50158, .zero .tmTailLeft50158, .zero .tmTailRight50158 {
+	background-image:none !important;
+}
+.tmBody50149, .tmHeadLeft50149, .tmHeadRight50149, .tmTailLeft50149, .tmTailRight50149 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50149.png) !important;
+}
+.zero .tmBody50149, .zero .tmHeadLeft50149, .zero .tmHeadRight50149, .zero .tmTailLeft50149, .zero .tmTailRight50149 {
+	background-image:none !important;
+}
+.tmBody1652, .tmHeadLeft1652, .tmHeadRight1652, .tmTailLeft1652, .tmTailRight1652 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/1652.png) !important;
+}
+.zero .tmBody1652, .zero .tmHeadLeft1652, .zero .tmHeadRight1652, .zero .tmTailLeft1652, .zero .tmTailRight1652 {
+	background-image:none !important;
+}
+.tmBody61582, .tmHeadLeft61582, .tmHeadRight61582, .tmTailLeft61582, .tmTailRight61582 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/61582.png) !important;
+}
+.zero .tmBody61582, .zero .tmHeadLeft61582, .zero .tmHeadRight61582, .zero .tmTailLeft61582, .zero .tmTailRight61582 {
+	background-image:none !important;
+}
+.tmBody50138, .tmHeadLeft50138, .tmHeadRight50138, .tmTailLeft50138, .tmTailRight50138 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50138.png) !important;
+}
+.zero .tmBody50138, .zero .tmHeadLeft50138, .zero .tmHeadRight50138, .zero .tmTailLeft50138, .zero .tmTailRight50138 {
+	background-image:none !important;
+}
+.tmBody50162, .tmHeadLeft50162, .tmHeadRight50162, .tmTailLeft50162, .tmTailRight50162 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50162.png) !important;
+}
+.zero .tmBody50162, .zero .tmHeadLeft50162, .zero .tmHeadRight50162, .zero .tmTailLeft50162, .zero .tmTailRight50162 {
+	background-image:none !important;
+}
+.tmBody5312, .tmHeadLeft5312, .tmHeadRight5312, .tmTailLeft5312, .tmTailRight5312 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/5312.png) !important;
+}
+.zero .tmBody5312, .zero .tmHeadLeft5312, .zero .tmHeadRight5312, .zero .tmTailLeft5312, .zero .tmTailRight5312 {
+	background-image:none !important;
+}
+.tmBody50125, .tmHeadLeft50125, .tmHeadRight50125, .tmTailLeft50125, .tmTailRight50125 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50125.png) !important;
+}
+.zero .tmBody50125, .zero .tmHeadLeft50125, .zero .tmHeadRight50125, .zero .tmTailLeft50125, .zero .tmTailRight50125 {
+	background-image:none !important;
+}
+.tmBody57490, .tmHeadLeft57490, .tmHeadRight57490, .tmTailLeft57490, .tmTailRight57490 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/57490.png) !important;
+}
+.zero .tmBody57490, .zero .tmHeadLeft57490, .zero .tmHeadRight57490, .zero .tmTailLeft57490, .zero .tmTailRight57490 {
+	background-image:none !important;
+}
+.tmBody50042, .tmHeadLeft50042, .tmHeadRight50042, .tmTailLeft50042, .tmTailRight50042 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50042.png) !important;
+}
+.zero .tmBody50042, .zero .tmHeadLeft50042, .zero .tmHeadRight50042, .zero .tmTailLeft50042, .zero .tmTailRight50042 {
+	background-image:none !important;
+}
+.tmBody50109, .tmHeadLeft50109, .tmHeadRight50109, .tmTailLeft50109, .tmTailRight50109 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50109.png) !important;
+}
+.zero .tmBody50109, .zero .tmHeadLeft50109, .zero .tmHeadRight50109, .zero .tmTailLeft50109, .zero .tmTailRight50109 {
+	background-image:none !important;
+}
+.tmBody87959, .tmHeadLeft87959, .tmHeadRight87959, .tmTailLeft87959, .tmTailRight87959 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/87959.png) !important;
+}
+.zero .tmBody87959, .zero .tmHeadLeft87959, .zero .tmHeadRight87959, .zero .tmTailLeft87959, .zero .tmTailRight87959 {
+	background-image:none !important;
+}
+.tmBody52818, .tmHeadLeft52818, .tmHeadRight52818, .tmTailLeft52818, .tmTailRight52818 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52818.png) !important;
+}
+.zero .tmBody52818, .zero .tmHeadLeft52818, .zero .tmHeadRight52818, .zero .tmTailLeft52818, .zero .tmTailRight52818 {
+	background-image:none !important;
+}
+.tmBody59324, .tmHeadLeft59324, .tmHeadRight59324, .tmTailLeft59324, .tmTailRight59324 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/59324.png) !important;
+}
+.zero .tmBody59324, .zero .tmHeadLeft59324, .zero .tmHeadRight59324, .zero .tmTailLeft59324, .zero .tmTailRight59324 {
+	background-image:none !important;
+}
+.tmBody7889, .tmHeadLeft7889, .tmHeadRight7889, .tmTailLeft7889, .tmTailRight7889 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/7889.png) !important;
+}
+.zero .tmBody7889, .zero .tmHeadLeft7889, .zero .tmHeadRight7889, .zero .tmTailLeft7889, .zero .tmTailRight7889 {
+	background-image:none !important;
+}
+.tmBody75050, .tmHeadLeft75050, .tmHeadRight75050, .tmTailLeft75050, .tmTailRight75050 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/75050.png) !important;
+}
+.zero .tmBody75050, .zero .tmHeadLeft75050, .zero .tmHeadRight75050, .zero .tmTailLeft75050, .zero .tmTailRight75050 {
+	background-image:none !important;
+}
+.tmBody64232, .tmHeadLeft64232, .tmHeadRight64232, .tmTailLeft64232, .tmTailRight64232 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/64232.png) !important;
+}
+.zero .tmBody64232, .zero .tmHeadLeft64232, .zero .tmHeadRight64232, .zero .tmTailLeft64232, .zero .tmTailRight64232 {
+	background-image:none !important;
+}
+.tmBody50043, .tmHeadLeft50043, .tmHeadRight50043, .tmTailLeft50043, .tmTailRight50043 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50043.png) !important;
+}
+.zero .tmBody50043, .zero .tmHeadLeft50043, .zero .tmHeadRight50043, .zero .tmTailLeft50043, .zero .tmTailRight50043 {
+	background-image:none !important;
+}
+.tmBody50065, .tmHeadLeft50065, .tmHeadRight50065, .tmTailLeft50065, .tmTailRight50065 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50065.png) !important;
+}
+.zero .tmBody50065, .zero .tmHeadLeft50065, .zero .tmHeadRight50065, .zero .tmTailLeft50065, .zero .tmTailRight50065 {
+	background-image:none !important;
+}
+.tmBody50142, .tmHeadLeft50142, .tmHeadRight50142, .tmTailLeft50142, .tmTailRight50142 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50142.png) !important;
+}
+.zero .tmBody50142, .zero .tmHeadLeft50142, .zero .tmHeadRight50142, .zero .tmTailLeft50142, .zero .tmTailRight50142 {
+	background-image:none !important;
+}
+.tmBody52341, .tmHeadLeft52341, .tmHeadRight52341, .tmTailLeft52341, .tmTailRight52341 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52341.png) !important;
+}
+.zero .tmBody52341, .zero .tmHeadLeft52341, .zero .tmHeadRight52341, .zero .tmTailLeft52341, .zero .tmTailRight52341 {
+	background-image:none !important;
+}
+.tmBody50124, .tmHeadLeft50124, .tmHeadRight50124, .tmTailLeft50124, .tmTailRight50124 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50124.png) !important;
+}
+.zero .tmBody50124, .zero .tmHeadLeft50124, .zero .tmHeadRight50124, .zero .tmTailLeft50124, .zero .tmTailRight50124 {
+	background-image:none !important;
+}
+.tmBody52757, .tmHeadLeft52757, .tmHeadRight52757, .tmTailLeft52757, .tmTailRight52757 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52757.png) !important;
+}
+.zero .tmBody52757, .zero .tmHeadLeft52757, .zero .tmHeadRight52757, .zero .tmTailLeft52757, .zero .tmTailRight52757 {
+	background-image:none !important;
+}
+.tmBody52748, .tmHeadLeft52748, .tmHeadRight52748, .tmTailLeft52748, .tmTailRight52748 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52748.png) !important;
+}
+.zero .tmBody52748, .zero .tmHeadLeft52748, .zero .tmHeadRight52748, .zero .tmTailLeft52748, .zero .tmTailRight52748 {
+	background-image:none !important;
+}
+.tmBody50062, .tmHeadLeft50062, .tmHeadRight50062, .tmTailLeft50062, .tmTailRight50062 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50062.png) !important;
+}
+.zero .tmBody50062, .zero .tmHeadLeft50062, .zero .tmHeadRight50062, .zero .tmTailLeft50062, .zero .tmTailRight50062 {
+	background-image:none !important;
+}
+.tmBody59856, .tmHeadLeft59856, .tmHeadRight59856, .tmTailLeft59856, .tmTailRight59856 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/59856.png) !important;
+}
+.zero .tmBody59856, .zero .tmHeadLeft59856, .zero .tmHeadRight59856, .zero .tmTailLeft59856, .zero .tmTailRight59856 {
+	background-image:none !important;
+}
+.tmBody52973, .tmHeadLeft52973, .tmHeadRight52973, .tmTailLeft52973, .tmTailRight52973 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52973.png) !important;
+}
+.zero .tmBody52973, .zero .tmHeadLeft52973, .zero .tmHeadRight52973, .zero .tmTailLeft52973, .zero .tmTailRight52973 {
+	background-image:none !important;
+}
+.tmBody52288, .tmHeadLeft52288, .tmHeadRight52288, .tmTailLeft52288, .tmTailRight52288 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52288.png) !important;
+}
+.zero .tmBody52288, .zero .tmHeadLeft52288, .zero .tmHeadRight52288, .zero .tmTailLeft52288, .zero .tmTailRight52288 {
+	background-image:none !important;
+}
+.tmBody82818, .tmHeadLeft82818, .tmHeadRight82818, .tmTailLeft82818, .tmTailRight82818 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/82818.png) !important;
+}
+.zero .tmBody82818, .zero .tmHeadLeft82818, .zero .tmHeadRight82818, .zero .tmTailLeft82818, .zero .tmTailRight82818 {
+	background-image:none !important;
+}
+.tmBody59890, .tmHeadLeft59890, .tmHeadRight59890, .tmTailLeft59890, .tmTailRight59890 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/59890.png) !important;
+}
+.zero .tmBody59890, .zero .tmHeadLeft59890, .zero .tmHeadRight59890, .zero .tmTailLeft59890, .zero .tmTailRight59890 {
+	background-image:none !important;
+}
+.tmBody50033, .tmHeadLeft50033, .tmHeadRight50033, .tmTailLeft50033, .tmTailRight50033 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50033.png) !important;
+}
+.zero .tmBody50033, .zero .tmHeadLeft50033, .zero .tmHeadRight50033, .zero .tmTailLeft50033, .zero .tmTailRight50033 {
+	background-image:none !important;
+}
+.tmBody2600291, .tmHeadLeft2600291, .tmHeadRight2600291, .tmTailLeft2600291, .tmTailRight2600291 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/2600291.png) !important;
+}
+.zero .tmBody2600291, .zero .tmHeadLeft2600291, .zero .tmHeadRight2600291, .zero .tmTailLeft2600291, .zero .tmTailRight2600291 {
+	background-image:none !important;
+}
+.tmBody50084, .tmHeadLeft50084, .tmHeadRight50084, .tmTailLeft50084, .tmTailRight50084 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50084.png) !important;
+}
+.zero .tmBody50084, .zero .tmHeadLeft50084, .zero .tmHeadRight50084, .zero .tmTailLeft50084, .zero .tmTailRight50084 {
+	background-image:none !important;
+}
+.tmBody52806, .tmHeadLeft52806, .tmHeadRight52806, .tmTailLeft52806, .tmTailRight52806 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/52806.png) !important;
+}
+.zero .tmBody52806, .zero .tmHeadLeft52806, .zero .tmHeadRight52806, .zero .tmTailLeft52806, .zero .tmTailRight52806 {
+	background-image:none !important;
+}
+.tmBody50102, .tmHeadLeft50102, .tmHeadRight50102, .tmTailLeft50102, .tmTailRight50102 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/50102.png) !important;
+}
+.zero .tmBody50102, .zero .tmHeadLeft50102, .zero .tmHeadRight50102, .zero .tmTailLeft50102, .zero .tmTailRight50102 {
+	background-image:none !important;
+}
+.tmBody60401, .tmHeadLeft60401, .tmHeadRight60401, .tmTailLeft60401, .tmTailRight60401 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/60401.png) !important;
+}
+.zero .tmBody60401, .zero .tmHeadLeft60401, .zero .tmHeadRight60401, .zero .tmTailLeft60401, .zero .tmTailRight60401 {
+	background-image:none !important;
+}
+.tmBody57488, .tmHeadLeft57488, .tmHeadRight57488, .tmTailLeft57488, .tmTailRight57488 {
+	background-image:url(http://img.uefa.com/imgml/teamkits/14/2013/57488.png) !important;
+}
+.zero .tmBody57488, .zero .tmHeadLeft57488, .zero .tmHeadRight57488, .zero .tmTailLeft57488, .zero .tmTailRight57488 {
+	background-image:none !important;
+}
